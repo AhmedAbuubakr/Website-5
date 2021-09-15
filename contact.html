@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Hello" />
+    <title>Document</title>
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Roboto Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .header {
+        position: relative;
+      }
+      .header .nav ul li:not(:first-child) {
+        border-color: #000;
+      }
+      .header .nav ul li a,
+      .header .nav ul li a:hover {
+        color: #000;
+      }
+      .header .nav .bar span {
+        background-color: #000;
+      }
+      .header .nav ul {
+        background-color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- -=== Header ===- -->
+    <div class="header">
+      <div class="container">
+        <div class="nav">
+          <ul>
+            <li><a href="index.html">01 : Home</a></li>
+            <li><a href="works.html">02 : Works</a></li>
+            <li><a href="components.html">03 : Components</a></li>
+            <li><a href="about.html">04 : About me</a></li>
+            <li><a href="contact.html">05 : Contact</a></li>
+          </ul>
+          <span class="bar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- -=== Content ===- -->
+    <div class="content">
+      <div class="container">
+        <div class="head-text">
+          <h1>05 : Contact</h1>
+        </div>
+        <div class="contact-section">
+          <form>
+            <input type="email" class="inp-grp" placeholder="Email" />
+            <input type="text" class="inp-grp" placeholder="Subject" />
+            <textarea
+              placeholder="Enter your message"
+              class="inp-grp"
+            ></textarea>
+            <input type="submit" value="Send" />
+          </form>
+          <div class="text">
+            <ul class="contact">
+              <li><i class="fas fa-phone-alt"></i> + 33 9 07 45 12 65</li>
+              <li><i class="fas fa-at"></i> e-mail@mail.io</li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i> 42 rue Moulbert 75016
+                Paris
+              </li>
+            </ul>
+            <h3>Follow me on social networks</h3>
+            <ul class="social">
+              <li>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
